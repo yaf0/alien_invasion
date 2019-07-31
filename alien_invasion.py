@@ -7,7 +7,6 @@ from settings import Settings
 from pygame.sprite import Group
 
 
-
 def run_game():
     # 初始化游戏并建立一个屏幕对象
     pygame.init()
@@ -21,8 +20,8 @@ def run_game():
     bullets = Group()
     aliens = Group()
 
-    #创建外星人群
-    gf.create_fleet(ai_settings, screen, aliens)
+    # 创建外星人群
+    gf.create_fleet(ai_settings, screen, ship, aliens)
 
     # 创建一个外星人
     alien = Alien(ai_settings, screen)
