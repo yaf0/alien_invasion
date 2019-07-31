@@ -1,16 +1,17 @@
 import pygame
+import game_functions as gf
 
-from settings import Settings
 from ship import Ship
+from settings import Settings
 from pygame.sprite import Group
 
-import game_functions as gf
+
 
 def run_game():
     # 初始化游戏并建立一个屏幕对象
     pygame.init()
     ai_settings = Settings()
-    screen =pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
+    screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
     pygame.display.set_caption("Alien Invasion")
 
     # 创建一艘飞船
@@ -22,7 +23,8 @@ def run_game():
     while True:
         gf.check_events(ai_settings, screen, ship, bullets)
         ship.update()
-        bullets.update()
+        gf.update_bullets(bullets)
         gf.update_screen(ai_settings, screen, ship, bullets)
+
 
 run_game()
