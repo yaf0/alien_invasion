@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fdbd81f6-e4b1-492a-8b8f-ceb86937f216" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/ship.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="190">
+              <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -32,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alien.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="198">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -74,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alien_invasion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="369">
+              <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -216,7 +213,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564492696180</updated>
       <workItem from="1564492705305" duration="11025000" />
-      <workItem from="1564508411465" duration="16153000" />
+      <workItem from="1564508411465" duration="16721000" />
     </task>
     <task id="LOCAL-00001" summary="飞船可以正确显示">
       <created>1564501321798</created>
@@ -288,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564587553066</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="群魔乱舞无限向下">
+      <created>1564589292758</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564589292758</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27178000" />
+    <option name="totallyTimeSpent" value="27746000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,10 +348,11 @@
     <MESSAGE value="创建外星人群" />
     <MESSAGE value="完整创建外星人群" />
     <MESSAGE value="整体向右移动" />
-    <option name="LAST_COMMIT_MESSAGE" value="整体向右移动" />
+    <MESSAGE value="群魔乱舞无限向下" />
+    <option name="LAST_COMMIT_MESSAGE" value="群魔乱舞无限向下" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/alien_invasion$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1564589199392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/alien_invasion$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1564589700500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/update_screen.py" />
@@ -377,8 +382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alien.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="198">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -387,8 +392,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="190">
+          <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -397,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alien_invasion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="369">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
